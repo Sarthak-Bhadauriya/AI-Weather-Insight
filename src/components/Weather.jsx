@@ -182,7 +182,7 @@ Wind Speed: ${snapshot.windSpeed} km/h`,
     }
 
     try {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(cityName)}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(cityName)}&units=metric&appid=095ff300d1573e09061df5e56b44d2b5`;
       const response = await fetch(url);
 
       if (!response.ok) {
